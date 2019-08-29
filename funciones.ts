@@ -1,4 +1,5 @@
-setTimeout(function(){
+setTimeout(() => {
+
     console.log(this);
 
-},2000);
+    },2000);
